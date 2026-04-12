@@ -1,0 +1,13 @@
+spec_version: "1.0"
+name: "urban-traffic-grids"
+version: "1.0.0"
+description: >
+  A city-wide urban traffic grid simulation. The agent acts as the central traffic 
+  controller, dynamically toggling traffic light phases (N/S vs E/W) to clear queues,
+  manage rush hour injections, and bypass accidents to minimize total wait time.
+tasks:
+  - task_1_easy
+  - task_2_medium
+  - task_3_hard
+container:
+  port: 7860
